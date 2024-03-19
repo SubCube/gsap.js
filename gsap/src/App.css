@@ -1,0 +1,21 @@
+
+.logo {
+  display: block;
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+  margin: 0 auto;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.helper {
+  height: 100vh;
+  background-color: orange;
+  width: 100%;
+}
