@@ -1,0 +1,29 @@
+:root {
+    --red: #ee1010;
+    --orange: #f2722c;
+    --yellow: #f4d10f;
+    --green: #15dc2c;
+    --light-blue: #1ddff8;
+    --blue: #1e90ff;
+    --purple: #a810ee;
+    --white: #ffffff;
+    --black: #252525;
+    --pink: #ff7de5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: var(--blue);
+}
+
+.panel {
+    height: 100vh;
+    background-color: var(--pink);
+}
